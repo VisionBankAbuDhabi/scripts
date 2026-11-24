@@ -38,7 +38,7 @@ import urllib.request
 from datetime import datetime
 
 # >>> The ONE key holding the target base URL, including the port. Edit it here. <<<
-BASE_URL = "http://localhost:8080"
+BASE_URL = "http://localhost:8083"
 
 NAME_RE = re.compile(r"^[a-z0-9-]+$")
 ENDPOINT = "/api/v1/templates"
